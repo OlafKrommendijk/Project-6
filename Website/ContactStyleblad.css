@@ -1,0 +1,106 @@
+html{
+	width: 100%;
+}
+body {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: sans-serif;
+	height:100%;
+	padding-bottom: 60px;
+}
+#header {
+	padding: 10px;
+	background-color: #609D9F;
+	height: 111px;
+}
+#HText {
+	margin: -17px 0px 0px 0px;
+	color: white;
+	width: 20px;
+	margin: 0% 0% 0% 48%;
+}
+.Home {
+	background-color: #609D9F;
+	justify-content: space-around;
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 10%;
+	float: left;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+}
+#logo {
+	position: relative;
+	float: left;
+	margin-top: -5%;
+	width: 10%;
+}
+
+/* NAVIGATIE */
+
+.dropbtn{
+	background-color: #609D9F;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	font-family:Calibri;
+	border-color: black;
+	border-style: solid;
+	border-width: 0px 0px 0px 2px;
+	flex-wrap: nowrap;
+	width: 16.6%
+}
+.dropbtn:hover {
+	background-color: #8fbbbc;
+}
+.nav {
+	background-color: white;
+	font-family: Arial;
+}
+.nav a {
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+}
+
+@media screen and (max-width: 600px) {
+	#zoeken a, .zoeken
+	input[type=text]{
+		display: inline-block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+
+	}
+}
+#zoeken{
+	margin: 0% 0% 0% 60%;
+	display: inline-block;
+}
+#winkelwagen{
+	margin: 0% 0% 10% 25%;
+	display: inline-block;
+}
+
+/*FOOTER*/
+
+#footer {
+	border-color: black;
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	background-color: #609D9F;
+	position: fixed;
+	bottom:0;
+	width:100%;
+	color: white;
+	height:40px;
+	}
+#FooterText{
+	margin: 0% 70% 0% 0%;
+}
