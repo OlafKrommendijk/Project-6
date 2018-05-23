@@ -12,7 +12,7 @@ body {
 #header {
 	padding: 10px;
 	background-color: #609D9F;
-	height: 111px;
+	height: 120px;
 }
 #HText {
 	margin: -17px 0px 0px 0px;
@@ -34,8 +34,7 @@ body {
 }
 #logo {
 	position: relative;
-	float: left;
-	margin-top: -5%;
+	margin: -5% 85% 0% 0%;
 	width: 10%;
 }
 
@@ -49,9 +48,8 @@ body {
 	font-family:Calibri;
 	border-color: black;
 	border-style: solid;
-	border-width: 0px 0px 0px 2px;
-	flex-wrap: nowrap;
-	width: 16.6%
+	border-width: 1px;
+	width: 18.92em;
 }
 .dropbtn:hover {
 	background-color: #8fbbbc;
