@@ -1,8 +1,7 @@
 body {
-	width: 100%;
+	width: 100	%;
 	margin: 0 auto;
 	text-align: center;
-	background: url('Afbeeldingen/background.jpg') no-repeat;
 	background-size: cover;
 	font-family: sans-serif;
 	height:100%;
@@ -154,7 +153,6 @@ body {
 	}
 }
 #zoeken{
-	width: 100%;
 	margin: 0% 0% 0% 35%;
 	display: inline-block;
 }
