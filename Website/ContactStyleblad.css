@@ -35,7 +35,7 @@ body {
 }
 #logo {
 	position: relative;
-	margin: -5% 80% 0% 0%;
+	margin: -7% 80% 0% 0%;
 	width: 10%;
 }
 
@@ -102,4 +102,9 @@ body {
 	}
 #FooterText{
 	margin: 0% 70% 0% 0%;
+}
+#knop {
+	margin-top: 0.7%;
+	height: 10%;
+	padding-bottom: 1px;
 }
