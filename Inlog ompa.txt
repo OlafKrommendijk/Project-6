@@ -1,0 +1,27 @@
+Beste Student,
+
+Hierbij ontvang je de gegevens van je nieuwe hosting omgeving.
+
+Het account is gemaakt met de volgende gegevens:
+
+Gebruikersnaam: ompa
+Wachtwoord:     6pK92QNh4k
+Domein:         ompatelefoons.icthardenberg.nl
+
+Om gelijk in te loggen op directadmin, gebruik de volgende link met het gebruikersnaam en het wachtwoord:
+
+http://www.ompatelefoons.icthardenberg.nl:2222
+
+Dataverkeer:    1000 Megabytes
+Schijfruimte:   500 Megabytes
+FTP accounts:   1
+FTP Server:     ftp.ompatelefoons.icthardenberg.nl
+Gebruikersnaam: ompa
+Wachtwoord:     6pK92QNh4k
+MySQL Databases:        1
+PHP:    ON
+
+Ga zorgvuldig om met deze gegevens.
+
+Met vriendelijk groet,
+TEAM ICT
