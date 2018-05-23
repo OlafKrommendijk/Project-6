@@ -6,6 +6,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	font-family: sans-serif;
+	font-family:Calibri;
 	height:100%;
 	padding-bottom: 60px;
 }
@@ -34,7 +35,7 @@ body {
 }
 #logo {
 	position: relative;
-	margin: -5% 85% 0% 0%;
+	margin: -5% 80% 0% 0%;
 	width: 10%;
 }
 
@@ -49,7 +50,7 @@ body {
 	border-color: black;
 	border-style: solid;
 	border-width: 1px;
-	width: 18.92em;
+	width: 15.96em;
 }
 .dropbtn:hover {
 	background-color: #8fbbbc;
