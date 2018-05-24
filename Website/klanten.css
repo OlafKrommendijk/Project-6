@@ -2,7 +2,7 @@ html{
 	width: 100%;
 }
 body {
-	width: 100%;
+	width: 99.9%;
 	margin: 0 auto;
 	text-align: center;
 	font-family: sans-serif;
@@ -34,29 +34,39 @@ body {
 	border-width: 2px;
 }
 #logo {
-	margin: -7% 80% 0% 0%;
+	position: relative;
+	margin: -5% 80% 0% 0%;
 	width: 10%;
 }
-#a{
-	border-color: black;
-	border-style: solid;
-	border-width: 2px;
+.TextA, .TextB, .TextC, .TextD,.fm{
+	color: black;
+	width: 45%;
 	float: left;
-	margin-top: 0%;
+	margin: 1%;
+	font-size: 1.3em;
 }
-#b{
-	border-color: black;
+.TextA{
+	margin-left: 3.5%;
+}
+.TextD{
+	padding-top: 10%;
+}
+#border{
 	border-style: solid;
+	border-color: black;
 	border-width: 2px;
-	float: right;
 }
-
+#border2{
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 1px 0px 1px;
+}
 /* NAVIGATIE */
 
 .dropbtn{
 	background-color: #609D9F;
 	color: white;
-	padding: 16px;
+	padding: 15px;
 	font-size: 16px;
 	font-family:Calibri;
 	border-color: black;
@@ -114,36 +124,4 @@ body {
 	}
 #FooterText{
 	margin: 0% 70% 0% 0%;
-}
-#knop {
-	margin-top: 0.7%;
-	height: 10%;
-	padding-bottom: 1px;
-}
-
-/* Contact Pagina */
-
-#MapContact {
-	margin: 0em 0em 0em 0em;
-	float: right;
-
-}
-
-#FotoContact {
-	margin: 0em 0em 40px 0em;
-	float: left;
-	width: 600px;
-
-}
-#Formulier {
-	margin-top: 0em;
-	margin-right: -16em;
-	margin-bottom: 50px;
-}
-#Bericht {
-	width: 454px;
-}
-#BerichtVerzenden {
-	margin-right: -45em;
-	margin-top: -30em;
 }
