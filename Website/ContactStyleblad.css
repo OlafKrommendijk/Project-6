@@ -62,7 +62,11 @@ body {
 	border-color: black;
 	border-style: solid;
 	border-width: 1px;
+<<<<<<< HEAD
 	width: 13.8em;
+=======
+	width: 13.6em;
+>>>>>>> da5ceb30fc5707119600406e750db0d14ea95111
 }
 .dropbtn:hover {
 	background-color: #8fbbbc;
