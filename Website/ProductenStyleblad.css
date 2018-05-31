@@ -91,13 +91,59 @@ body {
 }
 
 #Product1, #Product2, #Product3, #Product4, #Product5, #Product6{
-	padding-top: 50px;
+	padding-top: 100px;
 	width: 25em;
 	height: 30em;
 	display: inline-block;
 }
-
-
+#Product1:hover
+{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+}
+#Product2:hover
+{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+}
+#Product3:hover
+{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+}
+#Product4:hover
+{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+}
+#Product5:hover
+{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+}
+#Product6:hover
+{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+}
+#Product7:hover
+{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+}
+#Product8:hover
+{
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+}
 /*FOOTER*/
 
 #footer {
