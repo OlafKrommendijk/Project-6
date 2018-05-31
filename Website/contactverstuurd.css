@@ -90,14 +90,6 @@ body {
 	display: inline-block;
 }
 
-#Product1, #Product2, #Product3, #Product4, #Product5, #Product6{
-	padding-top: 50px;
-	width: 25em;
-	height: 30em;
-	display: inline-block;
-}
-
-
 /*FOOTER*/
 
 #footer {
@@ -122,4 +114,6 @@ body {
 #InputBar{
 	width: 80%;
 }
-
+#HF2{
+	padding-top: 170px;
+}
