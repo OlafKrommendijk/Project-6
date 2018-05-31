@@ -1,6 +1,5 @@
 html{
-	max-width: 100%;
-	overflow: hidden;	
+	max-width: 100%;	
 }
 body {
 	width: 100%;
@@ -35,11 +34,14 @@ body {
 	border-width: 2px;
 }
 #logo {
-	margin: 0% 90% 0% 0%;
 	width: 100px;
+	float: left;
 }
 #InloggenBox{
 	width: 55%;
+}
+#container{
+	overflow: hidden;
 }
 
 /* NAVIGATIE */
@@ -47,13 +49,12 @@ body {
 .dropbtn{
 	background-color: #609D9F;
 	color: white;
-	padding: 16px;
 	font-size: 16px;
 	font-family:Calibri;
 	border-color: black;
 	border-style: solid;
 	border-width: 1px;
-	width: 13.86em;
+	width: 13.72em;
 }
 .dropbtn:hover {
 	background-color: #8fbbbc;
@@ -63,7 +64,6 @@ body {
 	font-family: Arial;
 }
 .nav a {
-	font-size: 16px;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -126,7 +126,6 @@ body {
     width: 80%;
     text-align: center;
 }
-
 
 /*FOOTER*/
 

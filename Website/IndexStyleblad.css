@@ -91,9 +91,7 @@ body {
 }
 
 /*FOOTER*/
-.Wrap {
-	justify-content: space-around;
-}
+
 #footer {
 	border-color: black;
 	border-style: solid;
@@ -117,27 +115,29 @@ body {
 	width: 80%;
 }
 
-#MapContact {
-	width: 20em;
-	margin-right: 25em;
+#Product1, #Product2, #Product3{
+	width: 25em;
+	height: 20em;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
 	display: inline-block;
-	flex-wrap: wrap;
 }
 
-#FotoContact {
-	margin: 0em 0em 40px 0em;
-	width: 600px;
+.Slider {
+	margin-top: 10px;
+	width: 60em;
+	height: 25em;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
 	display: inline-block;
-	flex-wrap: wrap;
-	float: left;
 }
-#Bericht {
-	width: 454px;
-}
-#BerichtVerzenden {
-	margin-right: -45em;
-	margin-bottom: 30px;
-}
-#Afbeelding {
+.Aanbevolen {
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
 	width: 30em;
+	height: 25em;
+	display: inline-block;
 }

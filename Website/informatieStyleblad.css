@@ -1,5 +1,5 @@
 html{
-	width: 100%;
+	max-width: 100%;	
 }
 body {
 	width: 100%;
@@ -14,6 +14,7 @@ body {
 	padding: 10px;
 	background-color: #609D9F;
 	height: 120px;
+	width: 100%;
 }
 #HText {
 	margin: -17px 0px 0px 0px;
@@ -26,22 +27,21 @@ body {
 	justify-content: space-around;
 	display: inline-flex;
 	flex-wrap: wrap;
-	width: 99.8%;
+	width: 100%;
 	height: 10%;
-	float: left;
 	border-color: black;
 	border-style: solid;
 	border-width: 2px;
 }
 #logo {
-	position: relative;
-	margin: -7% 80% 0% 0%;
-	width: 10%;
+	width: 100px;
+	float: left;
 }
-.T1H {
-	max-width: 65%;
-	margin-left: 17%;
-	margin-top: 7%;
+#InloggenBox{
+	width: 55%;
+}
+#container{
+	overflow: hidden;
 }
 
 /* NAVIGATIE */
@@ -49,13 +49,12 @@ body {
 .dropbtn{
 	background-color: #609D9F;
 	color: white;
-	padding: 16px;
 	font-size: 16px;
 	font-family:Calibri;
 	border-color: black;
 	border-style: solid;
 	border-width: 1px;
-	width: 13.8em;
+	width: 13.72em;
 }
 .dropbtn:hover {
 	background-color: #8fbbbc;
@@ -65,7 +64,6 @@ body {
 	font-family: Arial;
 }
 .nav a {
-	font-size: 16px;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -91,6 +89,10 @@ body {
 	margin: 0% 0% 10% 25%;
 	display: inline-block;
 }
+.T1H {
+	width: 80%;
+	margin-left: 11%;
+}
 
 /*FOOTER*/
 
@@ -112,4 +114,7 @@ body {
 	margin-top: 0.7%;
 	height: 10%;
 	padding-bottom: 1px;
+}
+#InputBar{
+	width: 80%;
 }

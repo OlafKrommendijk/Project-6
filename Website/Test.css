@@ -1,5 +1,6 @@
 html{
-	max-width: 100%;	
+	max-width: 100%;
+	
 }
 body {
 	width: 100%;
@@ -34,14 +35,11 @@ body {
 	border-width: 2px;
 }
 #logo {
+	margin: 0% 90% 0% 0%;
 	width: 100px;
-	float: left;
 }
 #InloggenBox{
 	width: 55%;
-}
-#container{
-	overflow: hidden;
 }
 
 /* NAVIGATIE */
@@ -49,12 +47,13 @@ body {
 .dropbtn{
 	background-color: #609D9F;
 	color: white;
+	padding: 16px;
 	font-size: 16px;
 	font-family:Calibri;
 	border-color: black;
 	border-style: solid;
 	border-width: 1px;
-	width: 13.72em;
+	width: 13.86em;
 }
 .dropbtn:hover {
 	background-color: #8fbbbc;
@@ -64,6 +63,7 @@ body {
 	font-family: Arial;
 }
 .nav a {
+	font-size: 16px;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -91,9 +91,7 @@ body {
 }
 
 /*FOOTER*/
-.Wrap {
-	justify-content: space-around;
-}
+
 #footer {
 	border-color: black;
 	border-style: solid;
@@ -116,28 +114,29 @@ body {
 #InputBar{
 	width: 80%;
 }
+/*Content*/
 
 #MapContact {
-	width: 20em;
-	margin-right: 25em;
-	display: inline-block;
-	flex-wrap: wrap;
+	margin: 0em 0em 0em 0em;
+	float: right;
+
 }
 
 #FotoContact {
 	margin: 0em 0em 40px 0em;
-	width: 600px;
-	display: inline-block;
-	flex-wrap: wrap;
 	float: left;
+	width: 600px;
+
+}
+#Formulier {
+	margin-top: 0em;
+	margin-right: -16em;
+	margin-bottom: 50px;
 }
 #Bericht {
 	width: 454px;
 }
 #BerichtVerzenden {
 	margin-right: -45em;
-	margin-bottom: 30px;
-}
-#Afbeelding {
-	width: 30em;
+	margin-top: -30em;
 }
