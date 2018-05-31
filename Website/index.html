@@ -33,10 +33,37 @@
 						</div>
 					</div>
 						<div class="Slider">
+							<div class="w3-content w3-section" style="width:50%">
+  								<img class="mySlides" src="Afbeeldingen/tel1.JPG">
+  								<img class="mySlides" src="Afbeeldingen/tel3.JPG">
+  								<img class="mySlides" src="Afbeeldingen/tel2.JPG">
+  								<img class="mySlides" src="Afbeeldingen/tel4.JPG">
+  								<img class="mySlides" src="Afbeeldingen/tel5.JPG">
+  								<img class="mySlides" src="Afbeeldingen/tel6.JPG">
+							</div>
 
+							<script>
+							var myIndex = 0;
+							carousel();
+
+							function carousel() {
+							    var i;
+							    var x = document.getElementsByClassName("mySlides");
+							    for (i = 0; i < x.length; i++) {
+							       x[i].style.display = "none";  
+							    }
+							    myIndex++;
+							    if (myIndex > x.length) {myIndex = 1}    
+							    x[myIndex-1].style.display = "block";  
+							    setTimeout(carousel, 2000);
+							}
+							</script>
 						</div>
 						<div class="Aanbevolen">
-							
+							<img src="fysicfm.JPG" style="float: left;">
+							<img src="fysicfx.JPG" style="float: right;">
+							<img src="Afbeeldingen/MobielOud.JPG" style="float: right; height: 50%;">
+
 						</div>
 
 						<div class="T1H">

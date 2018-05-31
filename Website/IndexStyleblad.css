@@ -126,18 +126,22 @@ body {
 
 .Slider {
 	margin-top: 10px;
-	width: 60em;
+	width: 30em;
 	height: 25em;
-	border-color: black;
-	border-style: solid;
-	border-width: 1px;
 	display: inline-block;
+	margin-left: 20px;
 }
 .Aanbevolen {
 	border-color: black;
 	border-style: solid;
 	border-width: 1px;
-	width: 30em;
+	width: 45em;
 	height: 25em;
 	display: inline-block;
+}
+.banner{
+	width: 100%;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px 0px 2px 0px;
 }
