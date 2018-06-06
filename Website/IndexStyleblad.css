@@ -148,12 +148,18 @@ body {
 .leftbutton{
 	margin-right: 45%;
 	background-color: #609D9F;
-	height: 40px;
-	width: 50px;
+	height: 22px;
+	width: 65px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
 }
 .rightbutton{
 	margin-right: 20%;
 	background-color: #609D9F;
-	height: 40px;
-	width: 50px;
+	height: 22px;
+	width: 65px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
 }
