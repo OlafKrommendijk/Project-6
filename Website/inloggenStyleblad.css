@@ -96,7 +96,8 @@ body {
 	border-width: 3px;
 	margin-top: 6%;
 	max-width: 400px;
-	margin-left: 36%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .registreren{

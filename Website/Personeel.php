@@ -2,7 +2,7 @@
 	<HTML>
 		<HEAD>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<LINK href="inloggenStyleblad.css" rel="stylesheet" type="text/css" />
+			<LINK href="Sjabloon.css" rel="stylesheet" type="text/css" />
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<TITLE> Ompa Telefoons </TITLE>
@@ -22,6 +22,8 @@
 				</div>
 					<div class="nav">
 						<div class="Home">
+							
+
 							<a class="dropbtn" href="index.html"><strong>HOME</strong></a></button>
 							<a class="dropbtn" href="Informatie.html"><strong>INFORMATIE</strong></a></button>
 							<a class="dropbtn" href="Producten.html"><strong>PRODUCTEN</strong></a></button>
@@ -30,28 +32,6 @@
 							<a class="dropbtn" href="Personeel.html"><strong>PERSONEEL</strong></a></button>
 						</div>
 					</div>
-
-						<div class="T1H" style="font-size:2vw;">
-							<form action="klanten.html">
-  							Gebruikersnaam:<br>
-  							<input type="text" id="InputBar" name="gebruikersnaam" value="">
- 							 <br>
- 							 Wachtwoord:<br>
-  							<input type="text" id="InputBar" name="wachtwoord" value="">
- 							 <br><br>
- 							 <input class="submit" type="submit" value="Inloggen" href="klanten.html">
- 							 <br><br>
- 							 <input class="registreren" type="submit" value="Registreren">
-							</form>
-						</div>
-
-						<div id="HF2">
-							<div class="TextF">
-								<h1></h1>
-								<p></p>
-							</div>
-						</div>
-
 					<footer>
 						<div id="footer">
 							<div id="FooterText">
@@ -59,5 +39,20 @@
 							</div>
 						</div>
 					</footer>
+					<?php
+	$Voornaam = array("Jan", "Piet", "Jaap", "Henk", "Joep", "Gea", "Tea", "Fien", "Olaf", "Tim", "Jesse", "Rob", "Robin", "Max", "Niels");
+
+       echo "<td>" . "<strong>Ons Personeel:</strong>" . "</td>";
+	foreach ($Voornaam as $value) {
+		echo "<br>";
+		echo "<img id='one' src='nobody.JPG'>";
+		echo "<br>";
+        echo "<td>" . "<strong>Voornaam:</strong> <i>$value</i>" . "</td>";
+        echo "<br>";
+        echo "<td>" . "<strong>Achternaam:</strong> <i>Familie</i>" . "</td>";
+        echo "<br>";
+        echo "<td>" . "<strong>Werkende als:</strong> <i>JEEEEEE</i>" . "</td>";
+		}
+	?>
 			</BODY>
 	</html>
