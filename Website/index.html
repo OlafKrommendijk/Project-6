@@ -33,31 +33,36 @@
 						</div>
 					</div>
 						<div class="Slider">
-							<div class="w3-content w3-section" style="width:50%">
-  								<img class="mySlides" src="Afbeeldingen/tel1.JPG">
+							<div class="w3-content w3-display-container">
+								<img class="mySlides" src="Afbeeldingen/tel1.JPG">
   								<img class="mySlides" src="Afbeeldingen/tel3.JPG">
   								<img class="mySlides" src="Afbeeldingen/tel2.JPG">
   								<img class="mySlides" src="Afbeeldingen/tel4.JPG">
   								<img class="mySlides" src="Afbeeldingen/tel5.JPG">
   								<img class="mySlides" src="Afbeeldingen/tel6.JPG">
-							</div>
+								  <button class="leftbutton" onclick="plusDivs(-1)">&#10094;</button>
+								  <button class="rightbutton" onclick="plusDivs(1)">&#10095;</button>
+								</div>
 
-							<script>
-							var myIndex = 0;
-							carousel();
+								<script>
+								var slideIndex = 1;
+								showDivs(slideIndex);
 
-							function carousel() {
-							    var i;
-							    var x = document.getElementsByClassName("mySlides");
-							    for (i = 0; i < x.length; i++) {
-							       x[i].style.display = "none";  
-							    }
-							    myIndex++;
-							    if (myIndex > x.length) {myIndex = 1}    
-							    x[myIndex-1].style.display = "block";  
-							    setTimeout(carousel, 2000);
-							}
-							</script>
+								function plusDivs(n) {
+								  showDivs(slideIndex += n);
+								}
+
+								function showDivs(n) {
+								  var i;
+								  var x = document.getElementsByClassName("mySlides");
+								  if (n > x.length) {slideIndex = 1}    
+								  if (n < 1) {slideIndex = x.length}
+								  for (i = 0; i < x.length; i++) {
+								     x[i].style.display = "none";  
+								  }
+								  x[slideIndex-1].style.display = "block";  
+								}
+								</script>
 						</div>
 						<div class="Aanbevolen">
 							<img src="fysicfm.JPG" style="float: left;">
