@@ -81,6 +81,22 @@ body {
 
 	}
 }
+input.MyButton {
+width: 400px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 70%;
+background-color: #69CEEC;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+}
+input.MyButton:hover {
+color:  #fff;
+background: #3366cc;
+border: 1px solid #fff;
+}
 #zoeken{
 	margin: 0% 0% 0% 60%;
 	display: inline-block;
@@ -88,6 +104,10 @@ body {
 #winkelwagen{
 	margin: 0% 0% 10% 25%;
 	display: inline-block;
+}
+.T1H {
+	width: 80%;
+	margin-left: 11%;
 }
 
 /*FOOTER*/
@@ -113,53 +133,4 @@ body {
 }
 #InputBar{
 	width: 80%;
-}
-
-#Product1, #Product2, #Product3{
-	width: 25em;
-	height: 20em;
-	border-color: black;
-	border-style: solid;
-	border-width: 1px;
-	display: inline-block;
-}
-
-.Slider {
-	margin-top: 10px;
-	width: 30em;
-	height: 25em;
-	display: inline-block;
-	margin-left: 20px;
-}
-.Aanbevolen {
-	border-color: black;
-	border-style: solid;
-	border-width: 1px;
-	width: 45em;
-	height: 25em;
-	display: inline-block;
-}
-.banner{
-	width: 100%;
-	border-color: black;
-	border-style: solid;
-	border-width: 2px 0px 2px 0px;
-}
-.leftbutton{
-	margin-right: 45%;
-	background-color: #609D9F;
-	height: 22px;
-	width: 65px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: black;
-}
-.rightbutton{
-	margin-right: 20%;
-	background-color: #609D9F;
-	height: 22px;
-	width: 65px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: black;
 }
