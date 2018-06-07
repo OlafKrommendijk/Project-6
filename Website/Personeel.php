@@ -1,3 +1,6 @@
+	<?php
+	include "Functies.php";
+	?>
 <!DOCTYPE html>
 	<HTML>
 		<HEAD>
@@ -22,8 +25,6 @@
 				</div>
 					<div class="nav">
 						<div class="Home">
-							
-
 							<a class="dropbtn" href="index.html"><strong>HOME</strong></a></button>
 							<a class="dropbtn" href="Informatie.html"><strong>INFORMATIE</strong></a></button>
 							<a class="dropbtn" href="Producten.html"><strong>PRODUCTEN</strong></a></button>
@@ -32,6 +33,9 @@
 							<a class="dropbtn" href="Personeel.html"><strong>PERSONEEL</strong></a></button>
 						</div>
 					</div>
+					<?php
+					Personeel();
+					?>
 					<footer>
 						<div id="footer">
 							<div id="FooterText">
@@ -39,20 +43,5 @@
 							</div>
 						</div>
 					</footer>
-					<?php
-	$Voornaam = array("Jan", "Piet", "Jaap", "Henk", "Joep", "Gea", "Tea", "Fien", "Olaf", "Tim", "Jesse", "Rob", "Robin", "Max", "Niels");
-
-       echo "<td>" . "<strong>Ons Personeel:</strong>" . "</td>";
-	foreach ($Voornaam as $value) {
-		echo "<br>";
-		echo "<img id='one' src='nobody.JPG'>";
-		echo "<br>";
-        echo "<td>" . "<strong>Voornaam:</strong> <i>$value</i>" . "</td>";
-        echo "<br>";
-        echo "<td>" . "<strong>Achternaam:</strong> <i>Familie</i>" . "</td>";
-        echo "<br>";
-        echo "<td>" . "<strong>Werkende als:</strong> <i>JEEEEEE</i>" . "</td>";
-		}
-	?>
 			</BODY>
 	</html>
