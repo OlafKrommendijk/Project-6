@@ -90,59 +90,91 @@ body {
 	display: inline-block;
 }
 
-#Product1, #Product2, #Product3, #Product4, #Product5, #Product6{
+#Product1, #Product2, #Product3{
 	padding-top: 100px;
 	width: 25em;
-	height: 30em;
+	height: 25em;
+	display: inline-block;
+}
+
+#Product4, #Product5, #Product6{
+	padding-top: 200px;
+	width: 25em;
+	height: 25em;
 	display: inline-block;
 }
 #Product1:hover
 {
         -webkit-transform: scale(1.4);
         -ms-transform: scale(1.4);
-        transform: scale(1.4);
+        transform: scale(1.05);
 }
 #Product2:hover
 {
         -webkit-transform: scale(1.4);
         -ms-transform: scale(1.4);
-        transform: scale(1.4);
+        transform: scale(1.05);
 }
 #Product3:hover
 {
-        -webkit-transform: scale(1.4);
+       -webkit-transform: scale(1.4);
         -ms-transform: scale(1.4);
-        transform: scale(1.4);
+        transform: scale(1.05);
 }
 #Product4:hover
 {
         -webkit-transform: scale(1.4);
         -ms-transform: scale(1.4);
-        transform: scale(1.4);
+        transform: scale(1.05);
 }
 #Product5:hover
 {
-        -webkit-transform: scale(1.4);
+       -webkit-transform: scale(1.4);
         -ms-transform: scale(1.4);
-        transform: scale(1.4);
+        transform: scale(1.05);
 }
 #Product6:hover
 {
-        -webkit-transform: scale(1.4);
+       -webkit-transform: scale(1.4);
         -ms-transform: scale(1.4);
-        transform: scale(1.4);
+        transform: scale(1.05);
 }
 #Product7:hover
 {
         -webkit-transform: scale(1.4);
         -ms-transform: scale(1.4);
-        transform: scale(1.4);
+        transform: scale(1.05);
 }
 #Product8:hover
 {
         -webkit-transform: scale(1.4);
         -ms-transform: scale(1.4);
-        transform: scale(1.4);
+        transform: scale(1.05);
+}
+input.MyButton {
+width: 300px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background-color: #69CEEC;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+}
+input.MyButton:hover {
+color:  #fff;
+background: #3366cc;
+border: 1px solid #fff;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #FFFFFF;
+    margin: 1em 0;
+    padding: 0;
+    color: white; 
 }
 /*FOOTER*/
 
